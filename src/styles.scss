@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'src/app/app.component.scss';
+@import 'src/app/home/home.component.scss';
+@import 'src/app/login/login.component.scss';
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1, h2{color: $text-color; padding-bottom: 10px;}
+.txtCenter{text-align: $txt-center;}
+.main-container{width: $width;margin: $center;}
+.logo{width: $logo-width;}
+.nav-link{text-decoration: $no-underline;background-color: $text-color;color: $btn-text-color;padding: $overall-padding;border-radius: $curve;font-weight: $bold-txt;margin: $center;display: $table;}
+.txtCenter { text-align: center;}
+.flex-container{display: $flex;flex-direction: $flex-col;}
+.flex-container>nav{margin: $MartopBtm10;}
+input {padding: $pad12;width: $input-width;border-radius: $input-border-radius;border: $input-border;}
+.form-group{margin: $mar10auto;}
+button{background-color: $text-color;color:$btn-text-color;padding:$btn-padding;border-radius: $btn-border-radius;border: $no-border;cursor:$pointer;font-size: $fnt14;}
+form{width: $form-width; display: $flex; margin: $margin-auto; flex-direction: $flex-direction-col;}
